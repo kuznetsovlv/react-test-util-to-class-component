@@ -11,6 +11,10 @@
     "build": "npm run product",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuznetsovlv/react-test-util-to-class-component.git"
+  },
   "keywords": [
     "React",
     "Test",
