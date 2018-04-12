@@ -1,0 +1,23 @@
+{
+  "name": "react-test-util-to-class-component",
+  "version": "0.0.0-dev.01",
+  "description": "Wrapper to change function react component to class react component",
+  "main": "dist/index.js",
+  "scripts": {
+    "predev": "rm -rf dist",
+    "dev": "webpack",
+    "start": "NODE_ENV=development npm run dev",
+    "product": "NODE_ENV=product npm run dev",
+    "build": "npm run product",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Test",
+    "Util",
+    "Class",
+    "Component"
+  ],
+  "author": "Kuznetsov Leonid",
+  "license": "MIT"
+}
