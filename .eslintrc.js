@@ -60,6 +60,7 @@ module.exports = {
     "no-duplicate-imports": ["error", { "includeExports": true }],
     "import/no-mutable-exports": "error",
     "import/prefer-default-export": "warn",
+    "import/no-extraneous-dependencies": "off",
     "import/first": "error",
     "import/no-webpack-loader-syntax": "error",
     "no-iterator": "error",
@@ -160,6 +161,7 @@ module.exports = {
     "react/self-closing-comp": "error",
     "react/jsx-no-bind": "error",
     "react/require-render-return": "error",
+    "react/prop-types": "off",
     "react/sort-comp": [
       "warn",
       {
