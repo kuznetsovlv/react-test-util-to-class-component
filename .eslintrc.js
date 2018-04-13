@@ -8,8 +8,7 @@ module.exports = {
   "extends": [
     "airbnb",
     "eslint:recommended",
-    "plugin:jasmine/recommended",
-    "plugin:promise/recommended"
+    "plugin:jasmine/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": 6,
@@ -21,8 +20,7 @@ module.exports = {
   },
   "plugins": [
     "react",
-    "jsx-a11y",
-    "promise"
+    "jsx-a11y"
   ],
   "rules": {
     "prefer-const": [
@@ -197,16 +195,6 @@ module.exports = {
       }
     ],
     "react/no-is-mounted": "error",
-    "jsx-a11y/img-has-alt": [
-      "error",
-      {
-        "elements": [ "img", "object", "area", "input[type=\"image\"]" ],
-        "img": ["Image"],
-        "object": ["Object"],
-        "area": ["Area"],
-        "input[type=\"image\"]": ["InputImage"]
-      }
-    ],
     "jsx-a11y/img-redundant-alt": "error",
     "jsx-a11y/aria-role": "error",
     "jsx-a11y/no-access-key": "error",
@@ -218,8 +206,6 @@ module.exports = {
     "jasmine/valid-expect": "off",
     "jasmine/no-unsafe-spy": "off",
     "jasmine/no-global-setup": "off",
-    "jasmine/no-expect-in-setup-teardown": "off",
-    "promise/always-return": "warn",
-    "promise/catch-or-return": "warn"
+    "jasmine/no-expect-in-setup-teardown": "off"
   }
 };
