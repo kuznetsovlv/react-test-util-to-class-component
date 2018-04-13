@@ -1,5 +1,8 @@
 node_modules
 src
-test
+coverage
 README.md
-webpack.config.js
+.babelrc
+.git*
+package-lock.json
+*.js
