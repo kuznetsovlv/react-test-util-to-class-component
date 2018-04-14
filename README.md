@@ -8,7 +8,7 @@ As you know it is the best practice to create react component when it is possibl
 - [Usage.](#user-content-usege "Usage")
 - [License](#user-content-license "License")
 
-##GitHub.
+## GitHub.
 [Progect on GitHub.](https://github.com/kuznetsovlv/react-test-util-to-class-component "Link to GitHub repository")
 
 ## Install.
@@ -16,7 +16,7 @@ As you know it is the best practice to create react component when it is possibl
 npm install react-test-util-to-class-component --save-dev
 ```
 
-##Usage.
+## Usage.
 Import and wrap your component-function. Then test it.
 ```javascript
 import React, { Component } from 'react';
@@ -68,5 +68,5 @@ describe('Test for react-test-util-to-class-component', () => {
 
 ```
 
-##License
+## License
 [MIT](./LICENSE "MIT") Copyright (c) 2018 Kuznetsov Leonid.
