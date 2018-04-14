@@ -1,7 +1,6 @@
 node_modules
 src
 coverage
-README.md
 .babelrc
 .git*
 package-lock.json
