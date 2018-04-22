@@ -8,9 +8,9 @@ import {
 import reactTestUtilToClassComponent from './index';
 
 const FunctionComponent = ({
-  rootClass = '',
-  innerClass = '',
-  children = null
+  rootClass,
+  innerClass,
+  children
 }) => (
   <div className={rootClass}>
     <div className={innerClass}>{children}</div>
