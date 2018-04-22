@@ -1,6 +1,6 @@
 {
   "name": "react-test-util-to-class-component",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Wrapper to change function react component to class react component",
   "main": "dist/index.js",
   "scripts": {
